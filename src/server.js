@@ -4,4 +4,4 @@ function listener(request, response) {
 
 } 
 
-const server = http.createServer(listener)
+http.createServer(listener).listen(3333)
